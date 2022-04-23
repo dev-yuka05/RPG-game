@@ -12,3 +12,19 @@ body{
     font-weight: normal;
     font-style: normal;
 }
+
+#log{
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 20px 35px;
+    background-color: rgb(232, 232, 232);
+    height: 400px;
+    max-height: 400px;
+    overflow: scroll;
+    overflow-x: hidden;
+    color: #000;
+}
+
+#log::-webkit-scrollbar{
+    display:none;
+}
