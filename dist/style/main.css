@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: logFont;
+    padding: 100px 20%;
+}
+
+@font-face {
+    font-family: "logFont";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSMyungjo.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
